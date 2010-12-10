@@ -30,8 +30,16 @@ Have RVM automatically load your gemset and the correct version of ruby for your
 
 ## Autotest
 
-Use growl on Mac OSX:
+to use growl on Mac OSX:
 
+Install the growl gem:
+
+    $ gem install autotest-growl
+    
 ### .autotest
 
     require 'autotest/growl'
+
+You'll have to run autotest with the following command:
+
+    $ bundle exec autotest

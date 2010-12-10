@@ -9,12 +9,11 @@ group :development, :test do
 end
 
 group :test do
-  gem "cucumber",           "0.10.0"
-  gem "capybara",           "0.4.0"
-  gem "cucumber-rails",     "0.3.2"
-  gem "factory_girl_rails", "1.0"
-  gem "faker",              "0.3.1"
-  gem "ZenTest",            "4.4.1"
-  gem "autotest-rails",     "4.1.0"
+  gem "cucumber",            "0.10.0"
+  gem "capybara",            "0.4.0"
+  gem "cucumber-rails",      "0.3.2"
+  gem "factory_girl_rails",  "1.0"
+  gem "faker",               "0.3.1"
+  gem "autotest",            "4.4.6"
   gem "launchy"
 end
