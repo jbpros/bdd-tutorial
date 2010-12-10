@@ -18,6 +18,9 @@ log/*.pid
 .#*
 .emacs*
 
+# Ignore VIM files (the awesome text editor)
+*.swp
+
 # Ignore autotest (cucumber, rspec, ...) local configuration
 .autotest
 
